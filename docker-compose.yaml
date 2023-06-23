@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app:
+    image: portfolio:v1
+    environment:
+      - NODE_OPTIONS="--openssl-legacy-provider"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
