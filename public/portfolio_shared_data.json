@@ -1,17 +1,17 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Lucas Lucyk",
+      "titles": [ "Backend Developer", "Senior Software Engineer", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/lucaslucyk",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/lucaslucyk/",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
@@ -19,48 +19,144 @@
     "skills": {
       "icons": [
         {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "95"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "90"
+        },
+        {
+          "name": "Kubernetes",
+          "class": "devicon-kubernetes-plain",
+          "level": "90"
+        },
+        {
+          "name": "DigitalOcean",
+          "class": "devicon-digitalocean-plain",
+          "level": "90"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "80"
+        },
+        {
+          "name": "Django",
+          "class": "devicon-django-plain",
+          "level": "80"
+        },
+        {
+          "name": "FastAPI",
+          "class": "devicon-fastapi-plain",
+          "level": "80"
+        },
+        {
+          "name": "Pandas",
+          "class": "devicon-pandas-plain",
+          "level": "75"
+        },
+        {
+          "name": "Pytest",
+          "class": "devicon-pytest-plain",
+          "level": "70"
+        },
+        {
+          "name": "Debian",
+          "class": "devicon-debian-plain",
+          "level": "75"
+        },
+        {
+          "name": "bash",
+          "class": "devicon-bash-plain",
+          "level": "75"
+        },
+        {
+          "name": "nginx",
+          "class": "devicon-nginx-plain",
+          "level": "70"
+        },
+        {
+          "name": "uwsgi",
+          "class": "devicon-uwsgi-plain",
+          "level": "60"
+        },
+
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
+          "level": "60"
+        },
+        {
+          "name": ".NET Core",
+          "class": "devicon-dotnetcore-plain",
+          "level": "50"
+        },
+        {
+          "name": "Xamarin",
+          "class": "devicon-xamarin-plain",
+          "level": "70"
+        },
+        {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
-          "level": "95"
+          "level": "85"
         },
         {
           "name": "CSS 3",
           "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
           "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
         },
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
+          "level": "75"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
+          "name": "jQuery",
+          "class": "devicon-jquery-plain",
           "level": "75"
         },
         {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "level": "65"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "60"
         },
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "60"
+        },
+        {
+          "name": "SQLite",
+          "class": "devicon-sqlite-plain",
+          "level": "60"
+        },
+        {
+          "name": "Redis",
+          "class": "devicon-redis-plain",
+          "level": "60"
+        },
+        {
+          "name": "mongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "60"
+        },
+        {
+          "name": "SQLAlchemy",
+          "class": "devicon-sqlalchemy-plain",
           "level": "60"
         }
       ]
