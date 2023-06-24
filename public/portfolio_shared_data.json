@@ -59,6 +59,11 @@
           "level": "75"
         },
         {
+          "name": "Jupyter",
+          "class": "devicon-jupyter-plain",
+          "level": "75"
+        },
+        {
           "name": "Pytest",
           "class": "devicon-pytest-plain",
           "level": "70"
@@ -90,6 +95,11 @@
           "level": "60"
         },
         {
+          "name": "WordPress",
+          "class": "devicon-wordpress-plain",
+          "level": "60"
+        },
+        {
           "name": ".NET Core",
           "class": "devicon-dotnetcore-plain",
           "level": "50"
@@ -110,6 +120,11 @@
           "level": "80"
         },
         {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "65"
+        },
+        {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
           "level": "75"
@@ -118,11 +133,6 @@
           "name": "jQuery",
           "class": "devicon-jquery-plain",
           "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "65"
         },
         {
           "name": "React",

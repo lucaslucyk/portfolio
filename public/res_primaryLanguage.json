@@ -7,6 +7,9 @@
         "projects": "Projects",
         "skills": "Skills",
         "experience": "Experience"
+      },
+      "section_description": {
+        "projects": "Throughout my personal career and within SPEC, SA I have collaborated on multiple projects, both of development and consulting. A large part of the development projects are Open Source, but for political reasons, access to the source code is controlled.\n\nIn case you have access, I will give you the link and a brief description of each of them."
       }
     },
     "projects": [
@@ -15,6 +18,7 @@
         "startDate": "2019",
         "description": "Internal software to manage Customers, Budgets, Offers, Repairs, Pre-Sales, Billings and more.",
         "images": [
+          "images/portfolio/sigec/logo.png",
           "images/portfolio/sigec/p1.png",
           "images/portfolio/sigec/p2.png",
           "images/portfolio/sigec/p3.png"
@@ -44,6 +48,7 @@
         "startDate": "2020",
         "description": "Automatic updater for critical versions of netTime in on-premise customers.",
         "images": [
+          "images/portfolio/nt-updater/logo.png",
           "images/portfolio/nt-updater/p1.png"
         ],
         "url": "https://gitlab.com/spec-sa-ar/nt_updater",
@@ -67,6 +72,7 @@
         "startDate": "2020",
         "description": "Class management, reports, presentism and liquidation system for the Megatlon gyms network.",
         "images": [
+          "images/portfolio/sgc-web/logo.png",
           "images/portfolio/sgc-web/p1.png",
           "images/portfolio/sgc-web/p3.png",
           "images/portfolio/sgc-web/p4.png",
@@ -105,8 +111,9 @@
       {
         "title": "netSync",
         "startDate": "2021",
-        "description": "Workflow Management System (also known as ETL) to migrate and synchronize data between applications of SPEC, SA and others suppliers, such as Visma, Certronic, etc.",
+        "description": "Workflow Management System (also known as ETL) to migrate and synchronize data between applications of SPEC, SA and others suppliers, such as Visma, Certronic and more using Message Queue (RabbitMQ), Distributed Task Queue (Celery), Memory Database (Reddit) and more.",
         "images": [
+          "images/portfolio/netsync/logo.png",
           "images/portfolio/netsync/p1.png",
           "images/portfolio/netsync/p3.png",
           "images/portfolio/netsync/p4.png",
@@ -169,6 +176,7 @@
         "startDate": "2021",
         "description": "Gateway for hardware integration of SPEC, SA and third party.",
         "images": [
+          "images/portfolio/t3-gateway/logo.png",
           "images/portfolio/t3-gateway/p1.png",
           "images/portfolio/t3-gateway/p2.png"
         ],
@@ -201,6 +209,7 @@
         "startDate": "2021",
         "description": "Set of connectors to consume applications of SPEC, SA and third party software from Python. It is used by SPEC, SA in netSync, but it can be used by any person in their integration projects or other desired purpose. It is an Open Source project and anyone can use it from PyPI or access their documentation in Read the Docs.",
         "images": [
+          "images/portfolio/spec-utils/logo.png",
           "images/portfolio/spec-utils/p1.png",
           "images/portfolio/spec-utils/p2.png"
         ],
@@ -217,6 +226,149 @@
           {
             "class": "devicon-numpy-plain",
             "name": "NumPy"
+          }
+        ]
+      },
+      {
+        "title": "Outside Works",
+        "startDate": "2022",
+        "description": "Mobile clockings application for SPEC, SA to manage clockings, absences, calendar and more.",
+        "images": [
+          "images/portfolio/outside-works/logo.png",
+          "images/portfolio/outside-works/p1.jpg",
+          "images/portfolio/outside-works/p2.jpg"
+        ],
+        "url": "https://play.google.com/store/apps/details?id=com.spec.mobile.specapp&gl=US",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-xamarin-plain",
+            "name": "Xamarin"
+          }
+        ]
+      },
+      {
+        "title": "Eleven Trade",
+        "startDate": "2022",
+        "description": "COTPs bot for crypto transaction automation for Android and iOS mobile.",
+        "images": [
+          "images/portfolio/eleven-trade/logo.png",
+          "images/portfolio/eleven-trade/p1.png",
+          "images/portfolio/eleven-trade/p2.png",
+          "images/portfolio/eleven-trade/p3.png"
+        ],
+        "url": "https://github.com/lucaslucyk/eleven-trade",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-xamarin-plain",
+            "name": "Xamarin"
+          },
+          {
+            "class": "devicon-android-plain",
+            "name": "Android"
+          }
+        ]
+      },
+      {
+        "title": "Metatron",
+        "startDate": "2022",
+        "description": "Bot for detection and automation of triangular cryptocurrency arbitrage on Binance using Message Queue (RabbitMQ), Distributed Task Queue (Celery), Memory Database (Reddit) and more.",
+        "images": [
+          "images/portfolio/metatron/logo.png",
+          "images/portfolio/metatron/p1.png"
+        ],
+        "url": "https://github.com/lucaslucyk/metatron",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-fastapi-plain",
+            "name": "FastAPI"
+          },
+          {
+            "class": "devicon-pytest-plain",
+            "name": "Pytest"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-kubernetes-plain",
+            "name": "Kubernetes"
+          },
+          {
+            "class": "devicon-digitalocean-plain",
+            "name": "DigitalOcean"
+          },
+          {
+            "class": "devicon-bash-plain",
+            "name": "Bash"
+          },
+          {
+            "class": "devicon-redis-plain",
+            "name": "Redis"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nginx-plain",
+            "name": "nginx"
+          }
+        ]
+      },
+      {
+        "title": "Checksum-API",
+        "startDate": "2023",
+        "description": "API to generate Checksum of clockings with CRC32 algorithm.",
+        "images": [
+          "images/portfolio/checksum-api/logo.png",
+          "images/portfolio/checksum-api/p1.png"
+        ],
+        "url": "https://ntcrc.grupospec.com.ar/swagger/index.html",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-dotnetcore-plain",
+            "name": ".NET Core"
           }
         ]
       }
