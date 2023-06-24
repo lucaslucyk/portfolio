@@ -375,22 +375,29 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "SPEC, SA",
+        "title": "Full-Stack Developer",
+        "years": "2019 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Kubernetes"
         ],
+        "icon": "fab fa-python",
         "technologies": [
+          "Linux",
+          "Git",
+          "Docker",
+          "Kubernetes",
           "REST API",
-          "RxJS",
+          "Python",
+          "Django",
+          "FastAPI",
+          "Celery",
+          "RabbitMQ",
+          "Databases",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "React",
+          ".NET Core"
         ]
       },
       {
