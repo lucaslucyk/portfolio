@@ -13,7 +13,7 @@ class Footer extends Component {
         );
       });
     }
-
+    const year = new Date().getFullYear();
     return (
       <footer>
         <div className="col-md-12">
@@ -22,7 +22,7 @@ class Footer extends Component {
           <div className="copyright py-4 text-center">
             <div className="container">
               <small>
-                Copyleft &#x1F12F;{" "}
+                Copyleft &#x1F12F;{" "}{year}{" "}
                 {this.props.sharedBasicInfo
                   ? this.props.sharedBasicInfo.name
                   : "???"}
