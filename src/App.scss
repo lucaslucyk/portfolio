@@ -426,3 +426,14 @@ footer a:focus {
 	margin-top: 50px;
 	font-size: 22px;
 }
+
+
+.project-photo {
+	filter: grayscale(75%);
+	transition: filter 0.3s ease;
+  
+	&:hover {
+	  filter: grayscale(0%);
+	}
+  }
+  
