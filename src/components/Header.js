@@ -37,7 +37,7 @@ class Header extends Component {
 
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
-        <Navigation />
+        <Navigation basicInfo={this.props.basicInfo} />
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>

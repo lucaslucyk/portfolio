@@ -3,7 +3,8 @@
       "description_header": "Hola",
       "description": "👋 Soy desarrollador backend con experiencia en consultoría de software, gestión y desarrollo de proyectos de Time & Attendance, Access, Crypto, APIs y más.\n\nActualmente trabajo como desarrollador en SPEC, SA, para proyectos en Argentina, LATAM y Europa 😀.",
       "section_name": {
-        "about": "Acerca de mí",
+        "home": "Inicio",
+        "about": "Sobre mí",
         "projects": "Proyectos",
         "skills": "Habilidades",
         "experience": "Experiencia"
