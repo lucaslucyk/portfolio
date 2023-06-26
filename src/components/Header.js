@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Typical from "react-typical";
 import Switch from "react-switch";
+import Navigation from "./Navigation";
 
 class Header extends Component {
   titles = [];
@@ -36,6 +37,7 @@ class Header extends Component {
 
     return (
       <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
+        <Navigation />
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
@@ -54,8 +56,8 @@ class Header extends Component {
                 offColor="#baaa80"
                 onColor="#353535"
                 className="react-switch mx-auto"
-                width={90}
-                height={40}
+                width={45}
+                height={20}
                 uncheckedIcon={
                   <span
                     className="iconify"
@@ -66,7 +68,7 @@ class Header extends Component {
                       height: "100%",
                       fontSize: 25,
                       textAlign: "end",
-                      marginLeft: "20px",
+                      marginLeft: "4px",
                       color: "#353239",
                     }}
                   ></span>
@@ -81,7 +83,7 @@ class Header extends Component {
                       height: "100%",
                       fontSize: 25,
                       textAlign: "end",
-                      marginLeft: "10px",
+                      marginLeft: "1px",
                       color: "#353239",
                     }}
                   ></span>

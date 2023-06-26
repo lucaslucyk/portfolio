@@ -65,7 +65,7 @@ header {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	//background-color: transparentize(#F8F5F4, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -436,4 +436,47 @@ footer a:focus {
 	  filter: grayscale(0%);
 	}
   }
+
+  .menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	padding: 1em;
+	background: #1F1F1F;
+	color: white;
   
+	li {
+	  margin-right: 20px;
+	  cursor: pointer;
+	  transition: color 0.3s ease;
+  
+	  &:last-child {
+		margin-right: 0;
+	  }
+  
+	  &:hover {
+		color: rgb(174, 148, 79); /* Color de resaltado al pasar el mouse */
+	  }
+  
+	  &.active {
+		color: rgb(174, 148, 79); /* Color de resaltado del elemento activo */
+	  }
+	}
+  }
+  
+.github-corner {
+	svg{
+		position: fixed !important;
+		fill: #1F1F1F !important;
+	}
+}
