@@ -1,0 +1,485 @@
+{
+    "basic_info": {
+      "description_header": "Hola",
+      "description": "👋 Soy desarrollador backend con experiencia en consultoría de software, gestión y desarrollo de proyectos de Time & Attendance, Access, Crypto, APIs y más.\n\nActualmente trabajo como desarrollador en SPEC, SA, para proyectos en Argentina, LATAM y Europa 😀.",
+      "section_name": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia"
+      },
+      "section_description": {
+        "projects": "A lo largo de mi carrera personal y dentro de SPEC, SA he colaborado en múltiples proyectos, tanto de desarrollo como de consultoría. Gran parte de los proyectos de desarrollo son Open Source, pero por cuestiones políticas se controla el acceso al código fuente.\n\nEn caso de tener acceso, te paso el enlace y una breve descripción de cada uno de ellos."
+      }
+    },
+    "projects": [
+      {
+        "title": "Checksum-API",
+        "startDate": "2023",
+        "description": "API para generar Checksum de fichajes con algoritmo CRC32.",
+        "images": [
+          "images/portfolio/checksum-api/logo2.png",
+          "images/portfolio/checksum-api/p1.png"
+        ],
+        "url": "https://ntcrc.grupospec.com.ar/swagger/index.html",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-dotnetcore-plain",
+            "name": ".NET Core"
+          }
+        ]
+      },
+      {
+        "title": "Metatron",
+        "startDate": "2022",
+        "description": "Bot para la detección y automatización del arbitraje triangular de criptomonedas en Binance utilizando Cola de Mensajes (RabbitMQ), Cola de Tareas Distribuidas (Celery), Base de datos en Memoria (Reddit) y más.",
+        "images": [
+          "images/portfolio/metatron/logo2.png",
+          "images/portfolio/metatron/p1.png"
+        ],
+        "url": "https://github.com/lucaslucyk/metatron",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-fastapi-plain",
+            "name": "FastAPI"
+          },
+          {
+            "class": "devicon-pytest-plain",
+            "name": "Pytest"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-kubernetes-plain",
+            "name": "Kubernetes"
+          },
+          {
+            "class": "devicon-digitalocean-plain",
+            "name": "DigitalOcean"
+          },
+          {
+            "class": "devicon-bash-plain",
+            "name": "Bash"
+          },
+          {
+            "class": "devicon-redis-plain",
+            "name": "Redis"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML 5"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS 3"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "Javascript"
+          },
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nginx-plain",
+            "name": "nginx"
+          }
+        ]
+      },
+      {
+        "title": "Eleven Trade",
+        "startDate": "2022",
+        "description": "Bot COTPs para la automatización de transacciones criptográficas para dispositivos móviles Android e iOS.",
+        "images": [
+          "images/portfolio/eleven-trade/logo2.png",
+          "images/portfolio/eleven-trade/p1.png",
+          "images/portfolio/eleven-trade/p2.png",
+          "images/portfolio/eleven-trade/p3.png"
+        ],
+        "url": "https://github.com/lucaslucyk/eleven-trade",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-xamarin-plain",
+            "name": "Xamarin"
+          },
+          {
+            "class": "devicon-android-plain",
+            "name": "Android"
+          }
+        ]
+      },
+      {
+        "title": "Outside Works",
+        "startDate": "2022",
+        "description": "Aplicación de fichajes móviles para SPEC, SA para gestionar fichajes, ausencias, calendario y más.",
+        "images": [
+          "images/portfolio/outside-works/logo2.png",
+          "images/portfolio/outside-works/p1.jpg",
+          "images/portfolio/outside-works/p2.jpg"
+        ],
+        "url": "https://play.google.com/store/apps/details?id=com.spec.mobile.specapp&gl=US",
+        "technologies": [
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          },
+          {
+            "class": "devicon-xamarin-plain",
+            "name": "Xamarin"
+          }
+        ]
+      },
+      {
+        "title": "spec-utils",
+        "startDate": "2021",
+        "description": "Conjunto de conectores para consumir aplicaciones de SPEC, SA y software de terceros desde Python. Es utilizado por SPEC, SA en netSync, pero puede ser utilizado por cualquier persona en sus proyectos de integración u otro propósito deseado. Es un proyecto de código abierto y cualquiera puede usarlo desde PyPI o acceder a su documentación en Read the Docs.",
+        "images": [
+          "images/portfolio/spec-utils/logo2.png",
+          "images/portfolio/spec-utils/p1.png",
+          "images/portfolio/spec-utils/p2.png"
+        ],
+        "url": "https://spec-utils.readthedocs.io/en/latest/",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-pandas-plain",
+            "name": "Pandas"
+          },
+          {
+            "class": "devicon-numpy-plain",
+            "name": "NumPy"
+          }
+        ]
+      },
+      {
+        "title": "t3-gateway",
+        "startDate": "2021",
+        "description": "Pasarela para integración de hardware de SPEC, SA y de terceros.",
+        "images": [
+          "images/portfolio/t3-gateway/logo2.png",
+          "images/portfolio/t3-gateway/p1.png",
+          "images/portfolio/t3-gateway/p2.png"
+        ],
+        "url": "https://github.com/Grupospec/T3-srv",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-fastapi-plain",
+            "name": "FastAPI"
+          },
+          {
+            "class": "devicon-pytest-plain",
+            "name": "Pytest"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-nginx-plain",
+            "name": "nginx"
+          }
+        ]
+      },
+      {
+        "title": "netSync",
+        "startDate": "2021",
+        "description": "Workflow Management System (también conocido como ETL) para migrar y sincronizar datos entre aplicaciones de SPEC, SA y otros proveedores, como Visma, Certronic y más, utilizando Cola de Mensajes (RabbitMQ), Cola de Tareas Distribuidas (Celery), Base de Datos en memoria (Reddit) y más.",
+        "images": [
+          "images/portfolio/netsync/logo2.png",
+          "images/portfolio/netsync/p1.png",
+          "images/portfolio/netsync/p3.png",
+          "images/portfolio/netsync/p4.png",
+          "images/portfolio/netsync/p5.png"
+        ],
+        "url": "https://gitlab.com/spec-sa-ar/net_sync",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-pytest-plain",
+            "name": "Pytest"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-kubernetes-plain",
+            "name": "Kubernetes"
+          },
+          {
+            "class": "devicon-digitalocean-plain",
+            "name": "DigitalOcean"
+          },
+          {
+            "class": "devicon-bash-plain",
+            "name": "Bash"
+          },
+          {
+            "class": "devicon-redis-plain",
+            "name": "Redis"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-sqlite-plain",
+            "name": "SQLite"
+          },
+          {
+            "class": "devicon-nginx-plain",
+            "name": "nginx"
+          },
+          {
+            "class": "devicon-uwsgi-plain",
+            "name": "uWSGI"
+          }
+        ]
+      },
+      {
+        "title": "SGC-Web",
+        "startDate": "2020",
+        "description": "Gestión de clases, informes, presentismo y sistema de liquidación para la red de gimnasios Megatlon.",
+        "images": [
+          "images/portfolio/sgc-web/logo2.png",
+          "images/portfolio/sgc-web/p1.png",
+          "images/portfolio/sgc-web/p3.png",
+          "images/portfolio/sgc-web/p4.png",
+          "images/portfolio/sgc-web/p5.png",
+          "images/portfolio/sgc-web/p6.png",
+          "images/portfolio/sgc-web/p7.png"
+        ],
+        "url": "https://gitlab.com/spec-sa-ar/sgc-web",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
+          },
+          {
+            "class": "devicon-redis-plain",
+            "name": "Redis"
+          }
+        ]
+      },
+      {
+        "title": "nt-updater",
+        "startDate": "2020",
+        "description": "Actualizador automático para versiones críticas de netTime en clientes on-premise.",
+        "images": [
+          "images/portfolio/nt-updater/logo2.png",
+          "images/portfolio/nt-updater/p1.png"
+        ],
+        "url": "https://gitlab.com/spec-sa-ar/nt_updater",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-qt-original",
+            "name": "Qt5"
+          },
+          {
+            "class": "devicon-sqlite-plain",
+            "name": "SQLite"
+          }
+        ]
+      },
+      {
+        "title": "SIGeC",
+        "startDate": "2019",
+        "description": "Software interno para gestionar Clientes, Presupuestos, Ofertas, Reparaciones, Preventas, Facturación y más.",
+        "images": [
+          "images/portfolio/sigec/logo2.png",
+          "images/portfolio/sigec/p1.png",
+          "images/portfolio/sigec/p2.png",
+          "images/portfolio/sigec/p3.png"
+        ],
+        "url": "https://gitlab.com/spec-sa-ar/sigec",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-jquery-plain",
+            "name": "jQuery"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "ELEDE Group",
+        "title": "Cofundador y Desarrollador Full Stack",
+        "years": "2017 - present",
+        "icon": "fab fa-python",
+        "mainTech": [
+          "Python",
+          "Kubernetes"
+        ],
+        "technologies": [
+          "Linux",
+          "Git",
+          "Docker",
+          "Kubernetes",
+          "REST API",
+          "Python",
+          "FastAPI",
+          "Celery",
+          "RabbitMQ",
+          "Databases",
+          "JavaScript",
+          "Bootstrap",
+          "React",
+          "C#",
+          "Xamarin",
+          "EF Core",
+          "PHP",
+          "Wordpress",
+          "SASS"
+        ]
+      },
+      {
+        "company": "SPEC, SA",
+        "title": "Desarrollador Full Stack",
+        "years": "2019 - present",
+        "mainTech": [
+          "Python",
+          "Docker"
+        ],
+        "icon": "fab fa-python",
+        "technologies": [
+          "Linux",
+          "Bash",
+          "Git",
+          "Docker",
+          "Kubernetes",
+          "REST API",
+          "Webservices",
+          "Python",
+          "Django",
+          "FastAPI",
+          "Celery",
+          "RabbitMQ",
+          "Databases",
+          "JavaScript",
+          "Bootstrap",
+          "React",
+          ".NET Core",
+          "C#",
+          "Xamarin",
+          "EF Core"
+        ]
+      },
+      {
+        "company": "SPEC, SA",
+        "title": "Consultor técnico",
+        "years": "2015 - 2019",
+        "mainTech": [
+          "Python"
+        ],
+        "icon": "fab fa-microsoft",
+        "technologies": [
+          "Linux",
+          "Bash",
+          "MSSQL",
+          "Oracle",
+          "Java",
+          ".NET Framework"
+        ]
+      },
+      {
+        "company": "General Way Net Security System",
+        "title": "Técnico Electrónico",
+        "years": "2014 - 2015",
+        "mainTech": [
+          "Electronic"
+        ],
+        "icon": "fab fa-raspberry-pi",
+        "technologies": [
+          "Hardware",
+          "Arduino",
+          "Security"
+        ]
+      },
+      {
+        "company": "RED Users",
+        "title": "Escritor de Fascículos",
+        "years": "2013",
+        "mainTech": [
+          "Electronic"
+        ],
+        "icon": "fab fa-raspberry-pi",
+        "technologies": [
+          "Hardware",
+          "Arduino"        ]
+      }
+    ]
+  }
