@@ -5,7 +5,7 @@
       "section_name": {
         "home": "Home",
         "about": "About me",
-        "projects": "Projects",
+        "projects": "Some projects",
         "skills": "Skills",
         "experience": "Experience"
       },
@@ -316,30 +316,6 @@
           {
             "class": "devicon-redis-plain",
             "name": "Redis"
-          }
-        ]
-      },
-      {
-        "title": "nt-updater",
-        "startDate": "2020",
-        "description": "Automatic updater for critical versions of netTime in on-premise customers.",
-        "images": [
-          "images/portfolio/nt-updater/logo2.png",
-          "images/portfolio/nt-updater/p1.png"
-        ],
-        "url": "https://gitlab.com/spec-sa-ar/nt_updater",
-        "technologies": [
-          {
-            "class": "devicon-python-plain",
-            "name": "React"
-          },
-          {
-            "class": "devicon-qt-original",
-            "name": "Qt5"
-          },
-          {
-            "class": "devicon-sqlite-plain",
-            "name": "SQLite"
           }
         ]
       },
